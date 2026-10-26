@@ -1,0 +1,63 @@
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ==========================================
+# Knowledge Base & Large Files
+# ==========================================
+pdf/
+*.pdf
+
+# ==========================================
+# Database & Storage
+# ==========================================
+db.sqlite3
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# ==========================================
+# Virtual Environment
+# ==========================================
+venv/
+env/
+ENV/
+.venv/
+
+# ==========================================
+# Python Bytecode & Cache
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Streamlit & Local App Data
+# ==========================================
+.streamlit/secrets.toml
+
+# ==========================================
+# Generated Artifacts / Images
+# ==========================================
+graph.png
+
+# ==========================================
+# IDE & Operating System Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
